@@ -1,3 +1,18 @@
+# BenchmarkingPoliciesGraph.R: This file contains the code to build several of the figures in the paper. 
+# The URL for the data used to build figure 1 is at the top of the script. Several iterations were constructed to build Figure 2, 
+# where plot #6 in the script is the code for the final version of this plot.
+
+# Copyright (C) 2018-2019 Jonathan Roth, Benjamin Lim, Rishee K. Jain     
+# This program is free software: you can redistribute it and/or modify it under the terms of the 
+# GNU Affero General Public License as published by the Free Software Foundation, either version 
+# 3 of the License, or (at your option) any later version.      
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+# See the GNU Affero General Public License for more details. You should have received a copy of 
+# the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
 library(ggplot2)
 theme_set(theme_classic())
 library(stringr)
