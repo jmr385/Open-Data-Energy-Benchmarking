@@ -65,7 +65,7 @@ geocodeSL <- function (address, token, postal = TRUE){
 ```{r}
 #adr reads a formatted csv file of addresses, coordinates are appended to it line by line
 library(httr)
-token = 'oSlsZ_jjZOuWtaIFMeRrihET9DJ_NTINKILewIRaHccAPRafsKriWuRnS9_Y1acb'
+token = '<include your token here>'
 adr <- read.csv("/Users/benjaminlim/Desktop/City\ Benchmarking/boston/boston_addresses_energy.csv")
 adr$x=as.character(adr$x)
 adr$X <- NULL

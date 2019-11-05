@@ -21,7 +21,7 @@ boston <- read.csv(".../boston_final.csv")
 seattle <- read.csv(".../seattle_final.csv")
 chicago <- read.csv(".../chi_final.csv")
 philly <- read.csv(".../philly_final.csv")
-NYC <- read.csv(".../NYC_Imputed_Fixed2.csv")
+NYC <- read.csv(".../NYC_Imputed.csv")
 CBECS_2012 <- read_csv(".../CBECS_2012.csv")
 ```
 
